@@ -1,0 +1,74 @@
+/*
+* Autor: João Carlos Fernandes
+* Email: joao43013@gmail.com
+*/
+body{
+	padding: 0;
+	margin: 0;
+}
+#calculadora{
+	position: relative;
+	top: 10px;
+	border: solid 1px #000000;
+	background-color: rgba(100,100,100,.6);
+	width: 168px;
+	margin: 0 auto;
+	height: 183px;
+	padding: 1px 0px 0px 2px;
+}
+span{
+	border: solid 1px #000000;
+	display: inline-block;
+	margin: 0px 0px 2px 0px;
+	text-align: center;
+	cursor: pointer;
+}
+#display{
+	position: absolute;
+	width: 164px;
+	height: 35px;
+	text-align: right;
+	font-size: 30px;
+	cursor: text;
+	background-color: rgba(180,180,180,.4);
+}
+.numero,#igual,#ponto,.coluna-1{
+	width: 40px;
+}
+.esquerda{
+	width: 22px;
+}
+#soma{
+	position: absolute;
+	height: 31px;
+	margin-left: 5px;
+	padding-top: 11px;
+}
+#ponto{
+	position: relative;
+	top: -4px;
+	line-height: 12px;
+	padding-bottom: 7px;
+}
+#on,#ce{
+	border-radius: 10px 10px 10px 10px;
+	width: 30px;
+	background-color: rgba(0,250,0,.4);
+	color: #000000;
+}
+.coluna-1,.esquerda{
+	background-color: #B9B9C9;
+}
+.numero{
+	background-color: rgba(0,250,0,.3);
+}
+#ponto,#igual{
+	background-color: rgba(0,180,150,.3);
+}
+#teclas{
+	position: absolute;
+	top: 40px;
+}
+#ce{
+	display: none;
+}
